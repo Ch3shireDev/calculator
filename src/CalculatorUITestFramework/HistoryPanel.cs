@@ -107,7 +107,7 @@ namespace CalculatorUITestFramework
         {
             if (width > 2100)
             {
-                throw new NotFoundException("Could not the History Label");
+                throw new NotFoundException("Could not grow the History Label");
             }
 
             if (!this.session.PageSource.Contains("HistoryLabel"))

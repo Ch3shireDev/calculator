@@ -61,7 +61,7 @@ namespace CalculatorUITestFramework
         {
             if (width > 2100)
             {
-                throw new NotFoundException("Could not the Dock Panel for the History and Memory lists");
+                throw new NotFoundException("Could not grow the Dock Panel for the History and Memory lists");
             }
 
             if (!session.PageSource.Contains("DockPanel"))
